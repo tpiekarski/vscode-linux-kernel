@@ -1,6 +1,7 @@
 {
     "files.exclude": {
         "**/.*.*.cmd": true,
+        "**/*.cmd": true,
         "**/.*.d": true,
         "**/.*.S": true,
         "**/.git/objects/**": true,
@@ -50,6 +51,7 @@
     },
     "search.exclude": {
         "**/.*.*.cmd": true,
+        "**/*.cmd": true,
         "**/.*.d": true,
         "**/.*.S": true,
         "**/.git/objects/**": true,
