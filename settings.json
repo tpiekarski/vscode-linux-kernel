@@ -99,5 +99,7 @@
         "editor.tabSize": 8,
         "editor.insertSpaces": false,
         "editor.rulers": [80]
-    }
+    },
+    "editor.maxTokenizationLineLength": 40000,
+    "json.maxItemsComputed": 10000
 }
