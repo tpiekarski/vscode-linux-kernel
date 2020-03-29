@@ -4,7 +4,16 @@
             "name": "Linux",
             "cStandard": "c11",
             "intelliSenseMode": "gcc-x64",
-            "compileCommands": "${workspaceFolder}/compile_commands.json"
+            "compileCommands": "${workspaceFolder}/compile_commands.json",
+            "compilerPath": "/usr/local/bin/gcc",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include"
+            ],
+            "defines": [
+                "__GNUC__",
+                "__KERNEL__"
+            ]
         }
     ],
     "version": 4
